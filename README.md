@@ -1,2 +1,2 @@
-# Media-Sentiment-and-Public-Attention-Analysis-of-Exam-Related-Issues-in-India
+# Media Sentiment and Public Attention Analysis of Exam Related Issues in India
 This project analyzes the relationship between online public interest and media coverage of exam-related issues in India using Google Trends data and news headlines, the analysis combines data collection, sentiment analysis, statistical methods, and visualization to understand how media coverage relates to public search behavior.
