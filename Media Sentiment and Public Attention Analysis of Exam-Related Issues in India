@@ -1,0 +1,60 @@
+# Media Sentiment and Public Attention Analysis of Exam-Related Issues in India
+
+# Project Overview
+
+This project analyzes the relationship between online public interest and media coverage of exam-related issues in India using Google Trends data and news headlines.
+The analysis combines data collection, sentiment analysis, statistical methods, and visualization to understand how media coverage relates to public search behavior.
+## Objectives
+- Collect Google Trends search interest data.
+- Collect news headlines using NewsAPI.
+- Perform data cleaning and preprocessing.
+- Analyze sentiment of news headlines.
+- Compare media coverage with Google search trends.
+- Measure the relationship using Pearson correlation.
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- VADER Sentiment Analysis
+- Jupyter Notebook
+
+## Dataset
+
+### Google Trends
+- Keyword: NEET UG
+- Country: India
+
+### News Data
+- Source: NewsAPI
+- Fields:
+  - Date
+  - Source
+  - Title
+  - Description
+  - URL
+
+## Project Workflow
+
+1. Google Trends Data Collection
+2. News Data Collection
+3. Data Cleaning
+4. Exploratory Data Analysis
+5. Sentiment Analysis
+6. Statistical Analysis
+7. Correlation Analysis
+8. Dashboard Development
+
+## Results
+- Strong positive Pearson correlation (r = 0.7828)
+- Negative Headlines: 39%
+- Neutral Headlines: 34%
+- Positive Headlines: 27%
+Although the correlation was strong, the p-value (0.0657) indicated that the relationship was not statistically significant at the 5% significance level due to the small sample size.
+## Future Improvements
+- Increase the study period to 30–60 days.
+- Use additional news sources.
+- Apply transformer-based sentiment models (e.g., BERT).
+- Develop an interactive Power BI dashboard.
